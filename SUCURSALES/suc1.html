@@ -4,10 +4,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>La Favorita</title>
-  <!-- deja este exactamente así: pondrás style.css en SUCURSALES/css/ -->
   <link rel="stylesheet" href="CSS/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-  
 </head>
 <body>
 
@@ -16,8 +14,11 @@
       <div class="navbar">
         <div class="left-section">
           <div class="logo">
+            <a href="../index.html">
             <img src="../IMG/logo/logo.png" alt="La Favorita">
+             </a>
           </div>
+
         </div>
 
         <div class="search-bar">
@@ -222,30 +223,23 @@
       <div class="content">
         <p class="subtitle">Cuéntanos qué necesitas y te ayudaremos a encontrar los productos perfectos para ti.</p>
 
-
         <form id="consultaForm">
           <div class="form-grid">
-
             <div class="form-group">
               <label for="nombre">Nombre completo</label>
               <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
             </div>
-
 
             <div class="form-group">
               <label for="email">Correo electrónico</label>
               <input type="email" id="email" name="email" placeholder="tu@email.com" required>
             </div>
 
-
             <div class="form-group full-width">
               <label for="mensaje">Mensaje o pedido especial</label>
-              <textarea id="mensaje" name="mensaje"
-                placeholder="Escribe qué necesitas: ¿Eres específico, intolerante para oficina, presupuesto personalizado..."
-                required></textarea>
+              <textarea id="mensaje" name="mensaje" placeholder="Escribe qué necesitas: ¿Eres específico, intolerante para oficina, presupuesto personalizado..." required></textarea>
             </div>
           </div>
-
 
           <div class="button-group">
             <button type="submit" class="btn btn-primary">
@@ -258,16 +252,12 @@
           </div>
         </form>
 
-
         <div class="tip">
           <span class="tip-icon">💡</span>
-          <span>Tip: Si necesitas una lista específica de sitios para tu oficina, adjunta la información y te
-            prepararemos un presupuesto personalizado.</span>
+          <span>Tip: Si necesitas una lista específica de sitios para tu oficina, adjunta la información y te prepararemos un presupuesto personalizado.</span>
         </div>
       </div>
     </div>
-
-
 
     <div class="sucursales-container">
       <section class="sucursales">
@@ -327,8 +317,6 @@
         </div>
       </aside>
     </div>
-
-    <!-- (La sección de formulario/sucursales la dejo tal cual, si la usas) -->
 
     <footer>
       <p class="copy">&copy; 2025 La Favorita. Todos los derechos reservados. | Términos y Condiciones | Política de Privacidad</p>
