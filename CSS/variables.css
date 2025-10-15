@@ -1,0 +1,14 @@
+:root{
+  --magenta:#fd80f3;
+  --cyan:#5fb4ec;
+
+  --ink:#111827;
+  --muted:#6b7280;
+  --white:#ffffff;
+
+  --radius:18px;
+  --shadow:0 10px 22px rgba(0,0,0,.18);
+  --shadow-lg:0 14px 26px rgba(0,0,0,.22);
+
+  --font:'Poppins',system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Arial,sans-serif;
+}
